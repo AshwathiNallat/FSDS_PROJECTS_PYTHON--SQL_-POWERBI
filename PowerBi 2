@@ -1,0 +1,72 @@
+
+1. Explain the advantages of Natural Queries in PowerBi with an example?
+
+With Natural query language you can answer your query and get answers. 
+This is helpful for users who aren’t technically inclined since they can access insights easily with this feature.
+You can find insights that might not exist in your report but exist in your model based on the measures you’ve already created.
+It’s important to build your model well for instances like these. The Natural Language Query works best with a solid and detailed model.
+The Natural Language Query is an advanced feature that can find almost any insight.
+You can try it for yourself using different data. Since it’s very intuitive, it also adapts depending on what you input within the feature.
+
+
+2. Explain Web Front End(WFE) cluster from Power BI Service Architecture?
+
+The Web Front End (WFE) cluster. The WFE cluster manages the initial connection and authentication to the Power BI service.
+The Back-End cluster. Once authenticated, the Back-End handles all subsequent user interactions. 
+Power BI uses Azure Active Directory (Azure AD) to store and manage user identities.
+The WFE cluster uses Azure AD to authenticate clients, and provide tokens for subsequent client connections to the Power BI service. 
+Power BI uses the Azure Traffic Manager (Traffic Manager) to direct user traffic to the nearest datacenter.
+
+
+
+3. Explain Back End cluster from Power BI Service Architecture?
+
+The Back-End cluster determines how authenticated clients interact with the Power BI service. 
+The Back-End cluster manages visualizations, user dashboards, datasets, reports, data storage, data connections, data refresh, and 
+other aspects of interacting with the Power BI service. The Gateway Role acts as a gateway between user requests and the Power BI service.
+Users don't interact directly with any roles other than the Gateway Role. Azure API Management eventually handles the Gateway Role.
+
+
+4. What ASP.NET component does in Power BI Service Architecture?
+
+
+
+5. Compare Microsoft Excel and PowerBi Desktop on the following features:
+
+Data import :
+Data transformation :
+Modeling :
+Reporting :
+Server Deployment :
+Convert Models :
+Cost:
+
+6. List 20 data sources supported by Power Bi desktop.
+
+SQL Server database
+Access database
+SQL Server Analysis Services database
+Oracle database
+IBM Db2 database
+IBM Informix database (Beta)
+IBM Netezza
+MySQL database
+PostgreSQL database
+Sybase database
+Teradata database
+SAP HANA database
+SAP Business Warehouse Application Server
+SAP Business Warehouse Message Server
+Amazon Redshift
+Impala
+Google BigQuery
+Google BigQuery (Azure AD)(Beta)
+Vertica
+Snowflake
+Essbase
+Actian (Beta)
+Amazon Athena
+AtScale cubes
+BI Connector
+Data Virtuality LDW
+
