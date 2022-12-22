@@ -8,6 +8,8 @@ It’s important to build your model well for instances like these. The Natural 
 The Natural Language Query is an advanced feature that can find almost any insight.
 You can try it for yourself using different data. Since it’s very intuitive, it also adapts depending on what you input within the feature.
 
+---------------------------------------------------------------------------------------------------------------------------------------------
+
 
 2. Explain Web Front End(WFE) cluster from Power BI Service Architecture?
 
@@ -17,7 +19,7 @@ Power BI uses Azure Active Directory (Azure AD) to store and manage user identit
 The WFE cluster uses Azure AD to authenticate clients, and provide tokens for subsequent client connections to the Power BI service. 
 Power BI uses the Azure Traffic Manager (Traffic Manager) to direct user traffic to the nearest datacenter.
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 3. Explain Back End cluster from Power BI Service Architecture?
 
@@ -25,22 +27,44 @@ The Back-End cluster determines how authenticated clients interact with the Powe
 The Back-End cluster manages visualizations, user dashboards, datasets, reports, data storage, data connections, data refresh, and 
 other aspects of interacting with the Power BI service. The Gateway Role acts as a gateway between user requests and the Power BI service.
 Users don't interact directly with any roles other than the Gateway Role. Azure API Management eventually handles the Gateway Role.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 4. What ASP.NET component does in Power BI Service Architecture?
 
+A WFE cluster consists of an ASP.NET website running in the Azure App Service Environment. 
+When users attempt to connect to the Power BI service, the client's DNS service may communicate with the Azure Traffic Manager to find the most 
+appropriate (usually nearest) datacenter with a Power BI deployment.
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 5. Compare Microsoft Excel and PowerBi Desktop on the following features:
 
-Data import :
-Data transformation :
-Modeling :
-Reporting :
-Server Deployment :
-Convert Models :
-Cost:
+Data import : Excel has limitations in the amount of data it can work with. In contrast, Power BI can handle much larger amounts of data.
+Power BI can connect to a large number of data sources, while Excel's connectivity capacity is limited. Also, unlike Excel, 
+Power BI can be easily used from mobile devices.
 
+Data transformation : Excel is a better option if you want to manipulate and transform data, do searches, calculations and apply mathematical formulas or 
+create complex tabular reports. Power BI is more suitable for working with Big Data, creating visualizations, working in teams, integrating data from 
+multiple sources and, analyzing data with the intention of getting indicators, drawing conclusions and making data-driven decisions.
+
+Modeling : Power BI is primarily concerned with data use and complex data modeling tools. 
+Excel is fully focused on creating easy data models with a wide range of capabilities.
+
+Reporting : Microsoft Excel has a limited selection of interactive dashboards. Also, they have a broad variety of functions. 
+It includes a tabular data format that allows you to visualize data with a variety of chart types. Yet, for bigger datasets, it is not the best technique. 
+Easy formatting, natural language querying, scaling, editing, filtering, and so on. These are a few of the tools that PBI has to offer.
+
+Server Deployment : Power BI (Pro) is made for collaboration.
+Unlike in Excel where you’ll have to email the file around or in a portal, Power BI makes it easier. 
+There’s a cloud service called “Power BI Service” where you can publish your data.
+
+Convert Models : For data modeling excel uses MDM and power bi uses DAX. Power BI can cope with very complex modelling if you’re looking to build a 
+complex data model, whereas Excel is not made for these purposes. Power BI Desktop offers users the ability to perform modelling with ease using 
+drag and drop features and advanced filters, which can’t be done in excel
+
+Cost: Power BI Pro is available for $10 per month per client. If you want to buy Microsoft Excel, it costs $140.
+But, if you want it as part of the Office 365 Suite, it is $7/month
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
 6. List 20 data sources supported by Power Bi desktop.
 
 SQL Server database
