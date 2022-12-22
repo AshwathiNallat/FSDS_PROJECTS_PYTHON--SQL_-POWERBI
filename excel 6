@@ -1,0 +1,52 @@
+1. What are the various elements of the Excel interface? Describe how they're used.
+
+The following are the basic parts of the Microsoft Excel Window:
+1.	Quick Access Toolbar: This toolbar is located in the upper left corner of the screen. Its objective is to show the most frequently used Excel commands. We can customize this toolbar based on our preferred commands.
+2.	File Tab: We can click it to check the Backstage view, where we can open or save files, create new sheets, print sheets, and perform other file-related operations.
+3.	Title Bar: The title bar of the spreadsheet is at the top of the window. It displays the active document's name.
+4.	Control Buttons: Control buttons are the symbols that are present in the upper-right side of the window, enabling us to change the labels, minimize, maximize, share, and close the sheet.
+5.	Menu Bar: A contain a File, Insert, Page Layout, Formulas, Data, Review, View, Help, and a Search Bar with a light bulb icon.
+6.	Ribbon/Toolbar: On the selection of the menu, a sequence of command options/icons will show on a ribbon. For example, if we select the "Home" tab, we will see cut, copy, paste, bold, italic, underline, and more commands.
+Ribbon/Toolbar is a set of commands organized into three section- Tabs, groups and commands.
+7.	Dialog Box Launcher: Dialog box launcher is a very little down arrow that is present in the lower-right corner of a command group on the Ribbon. 
+8.	Name Box: Show the location of the active cell, row, or column.
+9.	Formula Bar: Formula bar permits us to observe, insert or edit the  information/formula entered in the active cell.
+10.	Scroll Bars: Scrollbars are the tools that enable us to move the document's vertical and horizontal views.
+11.	Spreadsheet Area: 
+12.	Leaf Bar
+13.	Column Bar
+14.	Row Bar Cells
+15.	Cells
+16.	Status Bar
+17.	View Buttons
+18.	Zoom control
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+2. Write down the various applications of Excel in the industry. 
+
+Applicatons of Excel in industry are:
+•	Data Entry And Storage
+•	Collection And Verification Of Business Data
+•	Administrative And Managerial Duties
+•	Accounting And Budgeting
+•	Data Analysis
+•	Reporting + Visualizations
+•	Forecasting
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. On the ribbon, make a new tab. Add some different groups, insert commands in the groups and name them according to their commands added. 
+Copy and paste the screenshot of the steps you followed.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4. Make a list of different shortcut keys that are only connected to formatting with their functions.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5. What distinguishes Excel from other analytical tools? 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+6. Create a table and add a custom header and footer to your table
